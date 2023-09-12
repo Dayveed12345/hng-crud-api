@@ -99,9 +99,7 @@ Here are the available API endpoints:
 
 To deploy the API locally, follow these steps:
 
-1. Clone this repository.
-2. Configure environment variables if necessary.
-3. Start the API server.
+Visit  https://github.com/Dayveed12345/hng-crud-api/blob/main/README.md
 
 ## Contact Information
 
