@@ -3,7 +3,7 @@
 
 ## Introduction
 
-Welcome to the API documentation for [Your API Name]. This document provides comprehensive information on how to use the API, including sample requests and responses, installation instructions, deployment options, known limitations, contributing guidelines, and contact information.
+Welcome to the API documentation for Hng-rest-api. This document provides comprehensive information on how to use the API, including sample requests and responses, installation instructions, deployment options, known limitations, contributing guidelines, and contact information.
 
 ## Table of Contents
 
