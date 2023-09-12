@@ -99,7 +99,77 @@ Here are the available API endpoints:
 
 To deploy the API locally, follow these steps:
 
-Visit  https://github.com/Dayveed12345/hng-crud-api/blob/main/README.md
+<!-- Visit  https://github.com/Dayveed12345/hng-crud-api/blob/main/README.md -->
+### Prerequisites
+
+Before you begin, make sure you have the following software installed on your system:
+
+- PHP (v8.3.0 or higher)
+- Composer (v2.0.0 or higher)
+- Node.js (v14.0.0 or higher)
+- npm (v6.0.0 or higher)
+- PGSQL (v5.7.0 or higher)
+
+### Installation
+
+1. Clone the project repository:
+
+   ```bash
+   git clone https://github.com/Dayveed12345/hng-crud-api.git
+   ```
+
+2. Navigate to the project folder:
+
+   ```bash
+   cd hng-crud-api
+   ```
+
+3. Install PHP dependencies using Composer:
+
+   ```bash
+   composer install
+   ```
+
+4. Install JavaScript dependencies using npm:
+
+   ```bash
+   npm install
+   ```
+
+5. Create a copy of the `.env.example` file and save it as `.env`:
+
+   ```bash
+   cp .env.example .env
+   ```
+
+6. Generate an application key:
+
+   ```bash
+   php artisan key:generate
+   ```
+
+7. Open the `.env` file and configure your database connection settings.
+
+### Running the API
+
+1. Run database migrations to create the necessary database tables:
+
+   ```bash
+   php artisan migrate
+   ```
+
+   If your project includes seed data, you can also run database seeders:
+
+   ```bash
+   php artisan db:seed
+   ```
+
+2. Start the Laravel development server:
+
+   ```bash
+   php artisan serve
+   ```
+
 
 ## Contact Information
 
