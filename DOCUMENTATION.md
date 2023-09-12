@@ -169,7 +169,24 @@ Before you begin, make sure you have the following software installed on your sy
    ```bash
    php artisan serve
    ```
+   The API will be accessible at `http://localhost:8000` by default.
 
+## Using the CRUD API
+
+You can use standard HTTP methods (GET, POST, PUT, DELETE) to interact with the CRUD API.
+
+- **Create**: Use a POST request to create a new resource.
+- **Read**: Use a GET request to retrieve one or more resources.
+- **Update**: Use a PUT request to update an existing resource.
+- **Delete**: Use a DELETE request to remove a resource.
+
+Here are some example API endpoints:
+
+- Create a new resource: `POST http://localhost:8000/api`
+- Read all resources: `GET http://localhost:8000/api`
+- Read a specific resource: `GET http://localhost:8000/api/{user_id}`
+- Update a resource: `PUT http://localhost:8000/api/{user_id}`
+- Delete a resource: `DELETE http://localhost:8000/api/{user_id}`
 
 ## Contact Information
 
