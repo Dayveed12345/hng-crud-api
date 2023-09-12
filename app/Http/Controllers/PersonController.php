@@ -64,7 +64,7 @@ class PersonController extends Controller
         }
 
         // Update the person's name
-        Person::where('id', $id)->update(['name' => $request->all()]);
+        $person=Person::where('id', $id)->update(['name' => $request->name]);
 
         // Return the updated person as a resource
         return response()->json(['Success' => "Updataed Name Successfully " ]);
